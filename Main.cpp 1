@@ -17,10 +17,11 @@ int main(int argc, char** arcv) {
 
 	else
 	{
-		std::cout << "X não eh 10." << std::endl;
+		std::cout << "X nÃ£o eh 10." << std::endl;
 	}
 
 	system("pause");
 
 	return 0;
+
 }
