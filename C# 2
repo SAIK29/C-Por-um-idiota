@@ -1,0 +1,47 @@
+            using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http.Headers;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EstudoC_
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+
+            string[] Y = {"Igordão", "Sodones", "Mano coelho", "Sr Stotherar drugs", "Guinas", "Nuuhpampadesh", "GABS >_<", "Juh U_U" };
+            StringBuilder W = new StringBuilder();
+
+
+            foreach (var I in Y)
+            {
+                W.AppendLine(I);
+            }
+            Console.WriteLine(W.ToString());
+
+            Console.WriteLine("Quem é o menor?");
+            Console.WriteLine($"1.{Y[0]}");
+            Console.WriteLine($"2.{Y[2]}");
+            Console.WriteLine($"3.{Y[6]}");
+            Console.WriteLine($"4.{Y[1]}");
+
+            String O = Console.ReadLine();
+            Console.WriteLine($"Qual é o menor em tamanho? {O}");
+
+            if (O == "2")
+            {
+                Console.WriteLine("Acertou! :D");
+            }
+            else
+            {
+                Console.WriteLine("Errou. :P");
+            }
+
+        }
+    }
+}
+
+            Console.ReadLine();
