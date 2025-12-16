@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
+using System.Linq;
+using System.Net.Http.Headers;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EstudoC_
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Random r = new Random();
+            string[] q = {"A", "B", "C", "D" };
+            int Wr = 0;
+            while (Wr != 21
+                )
+            {
+                string R = q[r.Next(q.Length)];
+                Console.WriteLine(R);
+                Wr = Wr + 1;
+            }
+        }
+    }
+}
