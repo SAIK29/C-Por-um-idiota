@@ -1,0 +1,16 @@
+using System;
+namespace EstudoC_
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] números = { 1, 2, 3, 4, 5, 6 };
+            foreach(int número in números) 
+            {
+                Console.WriteLine(número);
+            }
+            Console.Write("O programa acabou!");
+        }
+        }
+    }
